@@ -5,6 +5,54 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <style>
+            body {
+                background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/papyrus.png);
+            }
+            .container {
+                background-color: #ffffff;
+                border-radius: 1em;
+                padding: 2.5%;
+                margin-bottom: 15%;
+            }
+            #memoryGame {
+                padding: 0.5rem;
+                margin: 0.5rem;
+            }
+
+            #roulette {
+                padding: 0.5rem;
+                margin: 0.5rem;
+            }
+
+            #rolePlayingGame {
+                padding: 0.5rem;
+                margin: 0.5rem;
+            }
+
+            #snakeGame {
+                padding: 0.5rem;
+                margin: 0.5rem;
+            }
+
+            #hangman {
+                padding: 0.5rem;
+                margin: 0.5rem;
+            }
+
+            #spaceInvaders {
+                padding: 0.5rem;
+                margin: 0.5rem;
+            }
+
+            .footer {
+                flex-shrink: 0;
+                border-top: 8px solid #4aaaa5;
+                height: 4rem;
+                background-color: #666666;
+                width: 100%;
+            }
+        </style>
         <title>
             My Portfolio
         </title>
@@ -19,11 +67,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Portfolio</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
+                    <a class="nav-item nav-link" href="index.html">Home</a>
+                    <a class="nav-item nav-link active" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
                     <span class="navbar-text" style="position: absolute; right: 2%;">
-                        Check out my cool stuff!
+                        Anderson Boyd
                     </span>
                 </div>
             </div>
@@ -31,68 +79,81 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="http://www.placehold.it/200x100" class="card-img-top" alt="img1">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div id="memoryGame">
+                        <div class="card text-center">
+                            <img src="..." class="card-img-top" alt="img1">
+                            <div class="card-body">
+                                <h5 class="card-title">Memory Game</h5>
+                                <p class="card-text">Test your concentration skills!</p>
+                                <a href="#" class="btn btn-primary">Play</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="http://www.placehold.it/200x100" class="card-img-top" alt="img1">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div id="roulette">
+                        <div class="card text-center">
+                            <img src="..." class="card-img-top" alt="img1">
+                            <div class="card-body">
+                                <h5 class="card-title">Roulette</h5>
+                                <p class="card-text">Spin the wheel and try your luck!</p>
+                                <a href="#" class="btn btn-primary">Play</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="http://www.placehold.it/200x100" class="card-img-top" alt="img1">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div id="rolePlayingGame ">
+                        <div class="card text-center">
+                            <img src="..." class="card-img-top" alt="img1">
+                            <div class="card-body">
+                                <h5 class="card-title">Role-playing Game</h5>
+                                <p class="card-text">Choose your class and lead your party to victory!</p>
+                                <a href="#" class="btn btn-primary">Play</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="http://www.placehold.it/200x100" class="card-img-top" alt="img1">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div id="snakeGame">
+                        <div class="card text-center">
+                            <img src="..." class="card-img-top" alt="img1">
+                            <div class="card-body">
+                                <h5 class="card-title">Snake</h5>
+                                <p class="card-text">Eat the pellet, but don't run into yourself!</p>
+                                <a href="#" class="btn btn-primary">Play</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="http://www.placehold.it/200x100" class="card-img-top" alt="img1">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div id="hangman">
+                        <div class="card text-center">
+                            <img src="..." class="card-img-top" alt="img1">
+                            <div class="card-body">
+                                <h5 class="card-title">Hangman</h5>
+                                <p class="card-text">Guess the letters before you drop!</p>
+                                <a href="#" class="btn btn-primary">Play</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="http://www.placehold.it/200x100" class="card-img-top" alt="img1">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div id="spaceInvaders">
+                        <div class="card text-center">
+                            <img src="..." class="card-img-top" alt="img1">
+                            <div class="card-body">
+                                <h5 class="card-title">Space Invaders!</h5>
+                                <p class="card-text">Pew pew! Kill the oncoming aliens and save your planet!</p>
+                                <a href="#" class="btn btn-primary">Play</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <footer class="footer"></footer>
     </body>
 </html>
