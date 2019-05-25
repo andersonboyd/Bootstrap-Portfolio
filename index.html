@@ -3,6 +3,29 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <style>
+            body {
+                background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/papyrus.png);
+            }
+            .container {
+                background-color: #ffffff;
+                border-radius: 1em;
+            }
+            #name {
+                margin-top: 2.5%;
+                margin-bottom: 2.5%;
+                padding: 5px;
+                color: #4aaaa5;
+                border-bottom: 3px solid #777777;
+            }
+            #selfie {
+                object-fit: contain;
+            }
+            #aboutMe {
+                padding: 5px;
+                margin-bottom: 15%;
+            }
+        </style>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <title>
@@ -10,9 +33,9 @@
         </title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light" style="background: #ffffff;">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background: #4aaaa5;">
             <a class="navbar-brand" href="#">
-                <img src="https://66.media.tumblr.com/avatar_b6e04dcf0c2a_128.pnj" width="30" height="30" alt="">
+                <img src="https://66.media.tumblr.com/avatar_b6e04dcf0c2a_128.pnj" width="30" height="30" alt="favicon" style="border-radius: 0.5em">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,10 +51,27 @@
                 </div>
             </div>
         </nav>
-        <div class="jumbotron jumbotron-fluid" style=" background-color: #4aaaa5;">
-            <div class="container">
-                <h1 class="display-4" style="text-align: center; font-weight: bold; color: #ffffff">Anderson Boyd</h1>
-                <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="name">
+                        <h2>About me</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div id="selfie">
+                        <img src="https://scontent-dfw5-1.cdninstagram.com/vp/5b22e95bd19d30ba8163301130f4a087/5D64DB4F/t51.2885-15/sh0.08/e35/s640x640/46536448_2115820365168171_7547477608677164845_n.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com" class ="img-fluid" alt="It me" style="border-radius: 0.5em;">
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div id="aboutMe">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora animi fuga ex accusantium veritatis in, repudiandae eligendi esse libero totam et doloribus expedita quia vel commodi eum minus magnam! Perferendis.
+                        Ducimus esse sapiente delectus ex nam cupiditate eveniet quidem iure suscipit ut natus quae repudiandae nemo rerum id modi maxime itaque nulla perferendis, minus corporis vero ea, quo perspiciatis. Consectetur?
+                        Sunt repellat quis delectus molestiae laboriosam aut placeat perferendis, exercitationem, quam sed iure. Atque incidunt architecto numquam quas voluptatibus sint officia quaerat amet, soluta temporibus voluptatum labore optio vel reiciendis.
+                    </div>
+                </div>
             </div>
         </div>
     </body>
